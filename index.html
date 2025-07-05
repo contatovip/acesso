@@ -110,7 +110,7 @@
     function redirecionarWhatsApp() {
       const index = Math.floor(Math.random() * numerosWhatsApp.length);
       const numero = numerosWhatsApp[index];
-      const mensagem = encodeURIComponent("Oi Ester, tenho interesse!");
+      const mensagem = encodeURIComponent("Oi lais, tenho interesse!");
       const link = `https://wa.me/${numero}?text=${mensagem}`;
       window.location.href = link;
     }
